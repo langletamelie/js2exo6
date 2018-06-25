@@ -14,6 +14,10 @@ document.getElementById('image4').src = 'assets/images/image4_2.jpg';
 function changeImage5(){
 document.getElementById('image5').src = 'assets/images/image5_2.jpg';
 }
+/*
+function changeImage(id)
+document.getElementById('id').src = 'assets/images/' + id + '_2.jpg';
+*/
 //déclaration de la deuxième fonction
 function change(){
 document.getElementById('image1').src = 'assets/images/image1.jpg';
@@ -30,3 +34,8 @@ document.getElementById('image4').src = 'assets/images/image4.jpg';
 function change5(){
 document.getElementById('image5').src = 'assets/images/image5.jpg';
 }
+/*
+function change (id){
+document.getElementById('id').src = 'assets/images/' + id + '.jpg';
+}
+*/
